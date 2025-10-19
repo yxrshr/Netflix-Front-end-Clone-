@@ -1,0 +1,580 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+body
+{
+    background-color: black;
+    max-height: max-content;
+
+}
+nav select option
+{
+   color:  black;
+}
+.main 
+{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1200px , 100vw);
+    height: 95vh;   
+    position : relative;
+}
+
+.main .box
+{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.74;
+    top: 0;
+    background-color: black;  
+    position:absolute;
+}
+
+nav 
+{   
+    background-color:none;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+    
+
+}
+nav img 
+{
+    margin-left: 172px;
+    margin-top: 24px;
+    height: 40px;
+    width : 148px;
+    color: rgb(229,9,20);
+    z-index: 10;
+    position: relative; 
+}
+nav button
+{
+    z-index: 10;
+    position: relative;     
+}
+.lang
+{
+    width: 126px;
+    margin-right: 25px;
+    height: 32px;
+    background-color: transparent;
+    border : 1px solid antiquewhite;
+    color: white;
+    border-radius: 5px;
+    background-clip: padding-box;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1;
+    font-weight: 500;
+    z-index: 10;
+    position: relative;    
+}
+nav select{
+    color: white;
+}
+.acc
+{
+    width: 77px;
+    margin-top: 24px;
+    margin-right: 172px;
+    height: 32px;
+    background-color: rgb(229,9,20);
+    border-radius: 5px;
+    color: white;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    background-clip: padding-box;
+    z-index: 10;
+    position: relative; 
+
+
+}
+.acc:active
+{
+background-color: #C11119;
+}
+.text
+{
+    margin-top:150px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.text h1
+{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    z-index: 10;
+    position: relative;
+  
+}
+
+.text p
+{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    z-index: 10;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.text h3
+{
+    color: white;
+    font-size: 20px;
+    font-weight:400;
+    z-index: 10;
+    position: relative;
+    text-align: center;
+}
+
+.email
+{
+    padding: 16px 16px 16px 16px ;    
+    text-align: start;
+    border: 0.2px solid whitesmoke;
+    object-fit: cover;
+    color: rgba(255, 255, 255, 0.786);
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0, 0.29);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 150px;
+    background-clip: padding-box;
+    width: 370px;
+    z-index: 10;
+    position: relative; 
+    height: 56px;
+    bottom: 5px;
+    
+}
+
+.get
+{
+    width: 214px;
+    height: 56px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: rgb(229,9,20);
+    z-index: 10;
+    position: relative; 
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    bottom: 3px;
+    cursor: pointer;
+}
+.get:active
+{
+    background-color: #C11119;
+}
+/* .get:hover
+{
+    background-color: black;
+} */
+hr
+{
+    border: 5px solid gray
+}
+
+
+/* hero 1 tv video  */
+
+.hero1
+{
+    height: 432px;
+    padding-top: 72px;
+    display: flex;
+    align-items: center;
+    margin-left: 173px;
+    margin-bottom: 120px;
+}
+.enjoyyy
+{
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+
+}
+.enjoyyy h2
+{
+    font-size: 48px;
+    font-weight: 900;
+}
+.enjoyyy p
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.pccv
+{
+    position: relative;
+    width: 570px;
+    height: 428px;
+    margin-left: 15px;
+    padding-top: 29px;
+    display: flex;
+
+}
+.pccv img
+{
+    background-position: cover;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+.pccv video
+{
+    position: absolute;
+    right: 16px;
+    top: 100px;
+}    
+
+/* hero 2 stranger things section */
+
+.hero2
+{
+    height: 432px;
+    padding-top: 72px;
+    display: flex;
+    align-items:center;
+    margin-right: 93px;
+    margin-left: 153px;
+    margin-bottom: 120px;
+   
+}
+
+
+
+.stth
+{
+    position: relative;
+    width: 570px;
+    height: 428px;
+    display:flex;
+    justify-items: end;
+    align-items: flex-end;
+
+}
+
+
+
+.stth img
+{
+    background-position: center;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    overflow-clip-margin: content-box
+
+}
+
+.stranger
+{
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+    margin-left: 20px;
+
+}
+.stranger h2
+{
+    font-size: 48px;
+    font-weight: 900;
+}
+.stranger p
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+/* hero 3  sardarjiii video */
+
+.hero3
+{
+    height: 432px;
+    padding-top: 72px;
+    display: flex;
+    align-items: center;
+    margin-left: 173px;
+    margin-bottom: 120px;
+}
+
+.sardarjii
+{
+    position: relative;
+    width: 570px;
+    height: 428px;
+    margin-left: 55px;
+    padding-top: 29px;
+    display: flex;
+
+}
+.sardarjii img
+{
+    background-position: cover;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+.sardarjii video
+{
+    position: absolute;
+    left: 112px;
+    top: -130px;
+    width: 343px;
+    height: 604px;
+}    
+
+
+
+
+/* hero 4  kids section*/
+
+
+.hero4
+{
+    height: 432px;
+    padding-top: 72px;
+    display: flex;
+    align-items:center;
+    margin-right: 93px;
+    margin-left: 153px;
+    margin-bottom: 120px;
+   
+}
+
+
+
+.children
+{
+    position: relative;
+    width: 570px;
+    height: 428px;
+    display:flex;
+    justify-items: end;
+    align-items: flex-end;
+
+}
+
+
+
+.children img
+{
+    background-position: center;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    overflow-clip-margin: content-box
+
+}
+
+.kids
+{
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+    margin-left: 20px;
+
+}
+.kids h2
+{
+    font-size: 48px;
+    font-weight: 900;
+}
+.kids p
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
+/* frequently asked questions  */
+
+
+.faq
+{
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.faq h2
+{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 900;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 20px;
+}
+
+.faqbox
+{
+    padding:24px; 
+    background-color: #2D2D2D;
+    width: 100%;    
+    color: #FFFFFF;
+    font-size: 24px;
+    position: relative;
+    z-index: 10;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.faqbox:hover
+{
+    background-color: #414141;
+    color: white;
+}
+
+.faq i
+{
+    font-size: 36px;
+}
+
+/* ready to watch    */
+
+.ready h3
+{
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: -25px;
+    text-align: center;
+}
+
+.watchemail
+{
+    margin-top: -210px;
+    margin-left: -76px;
+}
+
+.hrf
+{
+    margin-top: -139px;      ;
+}
+
+
+/* footer */
+
+.question
+{
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+    margin-top: 52px;   
+    height: 400px;
+
+}
+.question p
+{
+    margin-left: 202px;
+}
+.question a 
+{
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+}
+.foottt
+{
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.foottt a
+{
+    display: block;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+    margin: 16px 0px 0px 12px;
+}
+
+.footlang
+{
+    padding: 6px 36px;
+    background-color: transparent;
+    border : 1px solid antiquewhite;
+    color: white;
+    border-radius: 5px;
+    background-clip: padding-box;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 400;
+    z-index: 10;
+    position: relative; 
+    margin-top: 29px;
+    margin-left: 202px;
+}
+.nindia
+{
+    margin-left: 202px;
+    margin-top: 25px;
+}
+footer select option
+{
+   color:  black;
+   text-align: start;
+}
+.media 
+{
+    top: 0;
+}
+#media 
+{
+    margin-top: -36px;
+}
